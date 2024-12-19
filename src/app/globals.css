@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --bg-black: #0B0E11;
+  --bg-a: #0B0E11;
+  --bg-b: #000000;
   --dark-pink: #ed1b76;
   --light-pink: #f44786;
   --dark-green: #037a76;
@@ -14,17 +15,31 @@
   --orange: #ee5d19;
   --violet: #625df5;
   --dark-violet: #625df580;
+  --font-luckiest-guy: "luckiestGuy", "luckiestGuy Fallback";
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --bg-a: #0B0E11;
+    --bg-b: #000000;
+    --dark-pink: #ed1b76;
+    --light-pink: #f44786;
+    --dark-green: #037a76;
+    --light-green: #249f9c;
+    --text-a: #FFFFFF;
+    --text-b: #C3C4C7;
+    --text-c: #787B89;
+    --orange: #ee5d19;
+    --violet: #625df5;
+    --dark-violet: #625df580;
+    --font-luckiest-guy: "luckiestGuy", "luckiestGuy Fallback";
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-a);
+  background: var(--bg-a);
+  font-family: "Architects Daughter", "Architects Daughter Fallback";
 }
 
 @layer utilities {
@@ -34,6 +49,6 @@ body {
 }
 
 ::selection {
-  background-color: var(--violet);
+  background-color: var(--dark-pink);
   color: var(--text-a);
 }
