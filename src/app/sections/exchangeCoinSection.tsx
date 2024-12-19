@@ -27,7 +27,7 @@ export default function ExchangeCoinSection() {
         <h2 className="text-xl md:text-xl md:max-w-3xl px-2 md:px-0 font-bold text-center mb-8">
             $GUYFROMSQUIDGAME IS AVAILABLE FOR TRADING ON MAJOR EXCHANGES.
         </h2>
-        <div className="flex flex-row flex-wrap gap-8 items-center justify-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-center">
             {coins.map((coin) => (
                 <div
                     key={coin.name}  

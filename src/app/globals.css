@@ -3,42 +3,84 @@
 @tailwind utilities;
 
 :root {
+  /* General */
   --bg-a: #0B0E11;
   --bg-b: #000000;
-  --dark-pink: #ed1b76;
-  --light-pink: #f44786;
-  --dark-green: #037a76;
-  --light-green: #249f9c;
   --text-a: #FFFFFF;
   --text-b: #C3C4C7;
   --text-c: #787B89;
   --orange: #ee5d19;
   --violet: #625df5;
   --dark-violet: #625df580;
-  --font-luckiest-guy: "luckiestGuy", "luckiestGuy Fallback";
+  
+  /* Squid Palette */
+  --light-pink: #f44786;
+  --pink: #ed1b76;
+  --dark-pink: #c53058;
+  --dark-pink-1: #5b122c;
+  --light-green: #249f9c;
+  --dark-green: #037a76;
+  --light-blue: #c4d3dc;
+  --blue: #3f7893;
+  --dark-blue: #0d2d3e;
+  
+  /* First Palette */
+  --color-light-tan: #DBBA87;
+  --color-medium-tan: #A96436;
+  --color-dark-brown-1: #5E4129;
+  --color-dark-brown-2: #382819;
+  --color-dark-brown-3: #1E140B;
+
+  /* Second Palette */
+  --color-light-gold: #DBB12A;
+  --color-medium-gold: #AE8B0F;
+  --color-mid-brown: #734B1A;
+  --color-deep-brown: #39250B;
+  --color-deepest-brown: #150E03;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-a: #0B0E11;
-    --bg-b: #000000;
-    --dark-pink: #ed1b76;
-    --light-pink: #f44786;
-    --dark-green: #037a76;
-    --light-green: #249f9c;
-    --text-a: #FFFFFF;
-    --text-b: #C3C4C7;
-    --text-c: #787B89;
-    --orange: #ee5d19;
-    --violet: #625df5;
-    --dark-violet: #625df580;
-    --font-luckiest-guy: "luckiestGuy", "luckiestGuy Fallback";
+  /* General */
+  --bg-a: #0B0E11;
+  --bg-b: #000000;
+  --text-a: #FFFFFF;
+  --text-b: #C3C4C7;
+  --text-c: #787B89;
+  --orange: #ee5d19;
+  --violet: #625df5;
+  --dark-violet: #625df580;
+  
+  /* Squid Palette */
+  --light-pink: #f44786;
+  --pink: #ed1b76;
+  --dark-pink: #c53058;
+  --dark-pink-1: #5b122c;
+  --light-green: #249f9c;
+  --dark-green: #037a76;
+  --light-blue: #c4d3dc;
+  --blue: #3f7893;
+  --dark-blue: #0d2d3e;
+  
+  /* First Palette */
+  --color-light-tan: #DBBA87;
+  --color-medium-tan: #A96436;
+  --color-dark-brown-1: #5E4129;
+  --color-dark-brown-2: #382819;
+  --color-dark-brown-3: #1E140B;
+
+  /* Second Palette */
+  --color-light-gold: #DBB12A;
+  --color-medium-gold: #AE8B0F;
+  --color-mid-brown: #734B1A;
+  --color-deep-brown: #39250B;
+  --color-deepest-brown: #150E03;
   }
 }
 
 body {
   color: var(--text-a);
-  background: var(--bg-a);
+  background: var(--text-a);
   font-family: "Architects Daughter", "Architects Daughter Fallback";
 }
 

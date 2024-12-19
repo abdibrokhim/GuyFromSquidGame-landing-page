@@ -21,14 +21,15 @@ export default function ContestSection() {
     ]
 
   return (
-    <div className="w-full bg-[var(--dark-green)] flex flex-col gap-4 items-center justify-center py-16" id="contest">
-        <h1 className="text-4xl md:text-6xl font-bold text-center mb-8">
+    <div className="w-full bg-[url('/images/contest.png')] w-full h-full bg-cover bg-no-repeat bg-center relative flex flex-col gap-4 items-center justify-center py-16" id="contest">
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 z-10">
             JOIN OUR CONTESTS
         </h1>
-        <h2 className="text-lg md:text-xl md:max-w-3xl px-2 md:px-0 max-w-md font-bold text-center mb-8">
-            Guy From Squid Game&spo;s secret to chilling? Affiliate campaigns! Click on the links below to join.
+        <h2 className="text-lg md:text-xl md:max-w-3xl px-2 md:px-0 max-w-md font-bold text-center mb-8 z-10">
+            GuyFromSquidGame&apos;s secret to chilling? Affiliate campaigns! Click on the links below to join.
         </h2>
-        <div className="flex flex-row flex-wrap gap-8 items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-center z-10">
             {contests.map((contest) => (
                 <div
                     key={contest.name} 
@@ -46,19 +47,20 @@ export default function ContestSection() {
                     font-bold 
                     inline-block 
                     border-4 
-                    border-[#1E1E1E] 
-                    shadow-[4px_4px_0_0_#1E1E1E]
+                    border-[#ffffff]
+                    shadow-[4px_4px_0_0_#ffffff]
                     transition-all 
                     duration-200
                     hover:translate-x-[2px]
                     hover:translate-y-[2px]
-                    hover:shadow-[2px_2px_0_0_#1E1E1E]
+                    hover:shadow-[##ffffff]
                     active:translate-x-[4px]
                     active:translate-y-[4px]
                     active:shadow-none
                     rounded-md
+                    cursor-pointer
                     px-4 py-2 text-[18px] sm:text-[18px] w-full text-center
-                    mt-4 text-lg font-bold py-2 px-6 text-white rounded-full hover:bg-[var(--dark-pink)]
+                    text-lg font-bold py-2 px-6 text-white rounded-full hover:bg-[var(--dark-pink)]
                 ">Join Now</a>
             </div>
             ))}

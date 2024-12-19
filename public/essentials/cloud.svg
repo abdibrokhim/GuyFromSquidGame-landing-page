@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" style="background: #ffffff;" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    The cloud is drawn using a path. 
+    The "fill" is a lighter shade (e.g., #E0E0E0), 
+    while the "stroke" is a bolder, darker line (e.g., #555555).
+  -->
+  <path d="M60 110
+           C40 110, 40 90, 60 90
+           C60 70, 80 60, 100 65
+           C110 40, 140 40, 150 65
+           C170 65, 180 80, 175 95
+           C190 100, 190 120, 175 120
+           L65 120
+           C60 120, 60 115, 60 110Z"
+        fill="#E0E0E0"
+        stroke="#555555"
+        stroke-width="4"
+        stroke-linejoin="round"/>
+</svg>

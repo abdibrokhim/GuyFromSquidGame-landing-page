@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="w-full max-w-3xl p-2 flex flex-col justify-between items-center bg-[var(--text-a)] rounded-full border-[2px] border-[var(--bg-a)] sticky top-10 z-30 shadow-lg">
+      <div className="w-full max-w-3xl p-2 flex flex-col justify-between items-center bg-[var(--text-a)] rounded-full border-[2px] border-[var(--bg-a)] top-10 fixed z-30 shadow-lg">
         <div className="w-full flex justify-between items-center py-2 px-4 text-sm">
           
           {/* Desktop Navigation */}
@@ -149,7 +149,7 @@ export default function Header() {
             </div>
           </div>
         )}
-      </header>
+      </div>
     </>
   );
 }
