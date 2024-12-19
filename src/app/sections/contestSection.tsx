@@ -26,7 +26,7 @@ export default function ContestSection() {
             JOIN OUR CONTESTS
         </h1>
         <h2 className="text-lg md:text-xl md:max-w-3xl px-2 md:px-0 max-w-md font-bold text-center mb-8">
-            Guy From Squid Game's secret to chilling? Affiliate campaigns! Click on the links below to join.
+            Guy From Squid Game&spo;s secret to chilling? Affiliate campaigns! Click on the links below to join.
         </h2>
         <div className="flex flex-row flex-wrap gap-8 items-center justify-center">
             {contests.map((contest) => (
