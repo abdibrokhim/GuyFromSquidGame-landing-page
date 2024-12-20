@@ -62,13 +62,13 @@ export default function ContractAddressSection() {
                             FUN FACTS
                         </h2>
                         <h2 className="text-lg md:text-xl md:max-w-3xl px-2 md:px-0 font-black max-w-md text-[var(--text-a)] font-bold text-center mt-6">
-                            What's his name?
+                            What&apos;s his name?
                         </h2>
                         <h2 className="mt-2 text-lg md:text-xl md:max-w-3xl px-2 md:px-0 font-black max-w-md text-[var(--text-a)] font-bold text-center">
                             The Guy From Squid Game?
                         </h2>
                         <h2 className="mt-6 text-md md:text-lg md:max-w-3xl px-2 md:px-0 max-w-md font-bold text-center">
-                            Ah, yes you're talking about player 456. Yeah, I don't know what his name was in the show either
+                            Ah, yes you&apos;re talking about player 456. Yeah, I don&apos;t know what his name was in the show either
                         </h2>
                     </div>
                 </div>
