@@ -57,7 +57,7 @@ export default function ContractAddressSection() {
                     <h2 className="text-4xl md:text-6xl px-2 md:px-0 max-w-md font-black text-[var(--dark-pink)] text-center">
                         <span className="block">WITH</span><span className="bg-[var(--dark-pink)] text-[var(--text-a)] px-1 font-black">GUY FROM SQUID GAME</span>
                     </h2>
-                    <div className="rounded-lg max-w-96 border-[1px] border-[var(--text-a)] shadow-lg p-8 rotate-[-2deg]">
+                    <div className="rounded-lg max-w-96 border-[1px] border-[var(--text-a)] shadow-lg p-8 rotate-[-2deg] transition-transform hover:scale-110">
                         <h2 className="text-2xl md:text-4xl md:max-w-3xl px-2 md:px-0 max-w-md font-black text-[var(--text-a)] text-center">
                             FUN FACTS
                         </h2>
@@ -74,14 +74,14 @@ export default function ContractAddressSection() {
                 </div>
                 <div className="">
                     <div className="flex flex-col gap-8">
-                    <Image
-                        aria-hidden
-                        className='md:w-full max-w-1/4 rounded-lg shadow-lg'
-                        src="/gifs/squid-guy-smiling.gif"
-                        alt="gif"
-                        width={400}
-                        height={400}
-                    /> 
+                        <Image
+                            aria-hidden
+                            className='md:w-full max-w-1/4 rounded-lg shadow-lg transition-transform hover:rotate-[2deg] hover:scale-110'
+                            src="/gifs/squid-guy-smiling.gif"
+                            alt="gif"
+                            width={400}
+                            height={400}
+                        /> 
                     </div>
                 </div>
             </div>

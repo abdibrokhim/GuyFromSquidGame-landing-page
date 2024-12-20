@@ -11,6 +11,7 @@ import ExchangeCoinSection from "./sections/exchangeCoinSection";
 import ContestSection from "./sections/contestSection";
 import Notification from "./utils/notify";
 import ContractAddressSection from "./sections/contractAddressSection";
+import MemeSectionBefore from "./sections/memeSectionBefore";
 
 export default function Home() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -48,7 +49,7 @@ export default function Home() {
       {/* Toggle Button */}
       <button 
         onClick={toggleMusic} 
-        className={`fixed bottom-16 right-8 z-40 bg-[var(--dark-green)] text-white p-4 rounded-full shadow-lg hover:bg-[var(--dark-pink)] transition
+        className={`fixed bottom-16 right-8 z-40 bg-[var(--dark-green)] text-white p-4 rounded-full shadow-lg hover:bg-[var(--dark-pink)] transition transition-transform hover:scale-110
           ${isPlaying ? 'bg-[var(--dark-green)] hover:bg-[var(--dark-pink)]' : 'bg-[var(--dark-pink)] hover:bg-[var(--dark-green)]'}`}
         aria-label="Toggle Music"
         >
@@ -83,6 +84,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
       <ExchangeCoinSection />
+      <MemeSectionBefore />
       <MemeSection />
       <MemeSectionA />
       <Footer />

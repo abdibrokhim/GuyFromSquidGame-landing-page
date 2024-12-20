@@ -10,7 +10,7 @@ export default function Socials() {
 <div className="flex gap-2 flex-wrap items-center justify-center">
           <a
               aria-label="Open Community on Discord"
-              className="flex items-center bg-[var(--bg-a)] hover:bg-[var(--dark-pink)] shadow-lg rounded-full p-2"
+              className="flex items-center bg-[var(--bg-a)] hover:bg-[var(--dark-pink)] shadow-lg rounded-full p-2 transition-transform hover:scale-110"
               href="https://discord.gg/nVtmDUN2sR"
               target="_blank"
               rel="noopener noreferrer"
@@ -25,7 +25,7 @@ export default function Socials() {
             </a>
           <a
               aria-label="Open Community on Discord"
-              className="flex items-center bg-[var(--bg-a)] hover:bg-[var(--dark-pink)] shadow-lg rounded-full p-2"
+              className="flex items-center bg-[var(--bg-a)] hover:bg-[var(--dark-pink)] shadow-lg rounded-full p-2 transition-transform hover:scale-110"
               href="https://discord.gg/nVtmDUN2sR"
               target="_blank"
               rel="noopener noreferrer"
@@ -40,7 +40,7 @@ export default function Socials() {
             </a>
             <a
               aria-label="Open Community on X"
-              className="flex items-center bg-[var(--bg-a)] hover:bg-[var(--dark-pink)] shadow-lg rounded-full p-2"
+              className="flex items-center bg-[var(--bg-a)] hover:bg-[var(--dark-pink)] shadow-lg rounded-full p-2 transition-transform hover:scale-110"
               href="https://x.com/xopencommunity"
               target="_blank"
               rel="noopener noreferrer"
@@ -55,7 +55,7 @@ export default function Socials() {
             </a>
             <a
               aria-label="Open Community on Instagram"
-              className="flex items-center bg-[var(--bg-a)] hover:bg-[var(--dark-pink)] shadow-lg rounded-full p-2"
+              className="flex items-center bg-[var(--bg-a)] hover:bg-[var(--dark-pink)] shadow-lg rounded-full p-2 transition-transform hover:scale-110"
               href="https://instagram.com/theopencommunity"
               target="_blank"
               rel="noopener noreferrer"
@@ -70,7 +70,7 @@ export default function Socials() {
             </a>
             <a
               aria-label="Open Community on Instagram"
-              className="flex items-center bg-[var(--bg-a)] hover:bg-[var(--dark-pink)] shadow-lg rounded-full p-2"
+              className="flex items-center bg-[var(--bg-a)] hover:bg-[var(--dark-pink)] shadow-lg rounded-full p-2 transition-transform hover:scale-110"
               href="https://x.com/xopencommunity"
               target="_blank"
               rel="noopener noreferrer"

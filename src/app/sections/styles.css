@@ -1,0 +1,13 @@
+/* Keyframe animation for infinite upward scrolling */
+@keyframes scrollUp {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-50%); /* Move up by half since we duplicated the content */
+    }
+  }
+  
+  .animate-scroll-up {
+    animation: scrollUp 10s linear infinite;
+  }
