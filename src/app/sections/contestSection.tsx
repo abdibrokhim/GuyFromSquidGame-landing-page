@@ -23,7 +23,7 @@ export default function ContestSection() {
   return (
     <div className="w-full bg-[url('/images/contest.png')] w-full h-full bg-cover bg-no-repeat bg-center relative flex flex-col gap-4 items-center justify-center py-16" id="contest">
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 z-10">
+        <h1 className="text-4xl md:text-6xl text-[var(--text-a)] font-black text-center mb-8 z-10">
             JOIN OUR CONTESTS
         </h1>
         <h2 className="text-lg md:text-xl md:max-w-3xl px-2 md:px-0 max-w-md font-bold text-center mb-8 z-10">
